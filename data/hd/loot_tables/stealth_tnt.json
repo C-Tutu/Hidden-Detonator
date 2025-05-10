@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Hidden Detonator\",\"italic\":false}'},Enchantments:[{}],EntityTag:{Tags:[\"HD-Item\"],Invisible:0b,Marker:1b,Invulnerable:1b,NoGravity:1b,Silent:1b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
